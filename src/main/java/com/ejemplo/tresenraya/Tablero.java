@@ -42,7 +42,7 @@ public class Tablero {
     }
 
     public boolean hayGanador() {
-        return verificarHorizontales() || verificarVerticales() || verificarDiagonales();
+        return  verificarVerticales() || verificarDiagonales();
     }
 
     private boolean verificarHorizontales() {
