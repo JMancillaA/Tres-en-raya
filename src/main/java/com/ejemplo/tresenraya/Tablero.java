@@ -41,9 +41,7 @@ public class Tablero {
         }
     }
 
-    public boolean hayGanador() {
-        return  verificarVerticales() || verificarDiagonales();
-    }
+    
 
     private boolean verificarHorizontales() {
         for (int y = 0; y < 3; y++) {
